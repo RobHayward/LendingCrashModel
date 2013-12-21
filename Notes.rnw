@@ -1,0 +1,29 @@
+\documentclass[12pt, a4paper, oneside]{article} % Paper size, default font size and one-sided paper
+%\graphicspath{{./Figures/}} % Specifies the directory where pictures are stored
+%\usepackage[dcucite]{harvard}
+\usepackage{rotating}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{pdflscape}
+\usepackage[flushleft]{threeparttable}
+\usepackage{multirow}
+\usepackage[comma, sort&compress]{natbib}% Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\usepackage{graphicx}
+%\bibliographystyle{plainnat}
+\bibliographystyle{agsm}
+\usepackage[colorlinks = true, citecolor = blue, linkcolor = blue]{hyperref}
+%\hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+%\renewcommand[\harvardurl]{URL: \url}
+\begin{document}
+\title{Lending Crash MOdel}
+\author{Rob Hayward\footnote{University of Brighton Business School, Lewes Road, Brighton, BN2 4AT; Telephone 01273 642586.  rh49@brighton.ac.uk}}
+\date{\today}
+\maketitle
+%\begin{abstract}
+%erehrere
+%\end{abstract}
+\begin{NOtes}
+The Poisson.R file has the notes from Arthur Chaprentier about the \emph{Poisson distribution} and \emph{the law of small numbers}.  There are a huge number of statistical references that will guide with exampels of Prussian horse kicks, Florida hurricanes and French nuclear incidents. 
+
+
+\end{document}
